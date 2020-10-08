@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ExtraText">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:gravity="center|right"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            android:text="Menu"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/trash_bin"
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/ic_trash" />
+
+        <Spinner
+            android:id="@+id/auto_choose_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="11dp" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/historyRecycleView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_weight="1" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@color/colorAccent"
+        android:visibility="visible">
+
+        <Button
+            android:id="@+id/go_to_tank_form_button"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="@color/colorAccent"
+            android:drawableTop="@drawable/ic_new_tankup"
+            android:text="@string/new_tank"
+            android:textSize="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/go_to_repair_form_button"
+            app:layout_constraintStart_toEndOf="@+id/go_to_collison_form_button"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/go_to_repair_form_button"
+            android:layout_width="wrap_content"
+            android:layout_height="88dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginRight="14dp"
+            android:background="@color/colorAccent"
+            android:drawableTop="@drawable/ic_new_repair"
+            android:text="@string/new_repair"
+            android:textSize="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/go_to_new_car_form_button"
+            app:layout_constraintStart_toEndOf="@+id/go_to_tank_form_button"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/go_to_collison_form_button"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:background="@color/colorAccent"
+            android:drawableTop="@drawable/ic_new_crush"
+            android:text="@string/new_colision"
+            android:textSize="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/go_to_tank_form_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/go_to_new_car_form_button"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:background="@color/colorAccent"
+            android:drawableTop="@drawable/ic_directions_car"
+            android:text="@string/new_car"
+            android:textSize="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/go_to_repair_form_button"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

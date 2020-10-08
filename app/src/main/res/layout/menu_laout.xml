@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/go_to_tank_form_button"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorAccent"
+        android:drawableTop="@drawable/ic_new_tankup"
+        android:text="@string/new_tank"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/go_to_repair_form_button"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorAccent"
+        android:drawableTop="@drawable/ic_new_repair"
+        android:text="@string/new_repair"
+        android:textSize="10dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/go_to_collison_form_button"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorAccent"
+        android:drawableTop="@drawable/ic_new_crush"
+        android:text="@string/new_colision"
+        android:textSize="10dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/go_to_new_car_form_button"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="@color/colorAccent"
+        android:drawableTop="@drawable/ic_directions_car"
+        android:text="@string/new_car"
+        android:textSize="10dp"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>

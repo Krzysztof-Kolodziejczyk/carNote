@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">car Note</string>
+    <string name="date">data</string>
+    <string name="millage">przebieg</string>
+    <string name="set_car_name">ustaw nazwe auta</string>
+    <string name="repair_cost">koszt naprawy</string>
+    <string name="given_repair_cost_error">podany koszt musi być dodatni</string>
+    <string name="liters">litry</string>
+    <string name="cost">koszt</string>
+    <string name="confirm">zatwierdź</string>
+    <string name="set_repair_cost">ustaw koszt naprawy</string>
+    <string name="set_reapir_car_name">ustaw nazwę naprawianego auta</string>
+    <string name="go_to_tank_form_button">Przejdź do tankowania</string>
+    <string name="go_to_repair_form_button">Przejdź do naprawy</string>
+    <string name="go_to_collison_form_button">Przejdź do kolizji</string>
+    <string name="make">marka</string>
+    <string name="model">model</string>
+    <string name="repair_car_name">nazwa naprawianego auta</string>
+    <string name="color">kolor</string>
+    <string name="given_cost_error">podany koszt musi byc dodatni!</string>
+    <string name="given_millage_error">podany przebieg musi być dodatni!</string>
+    <string name="set_make">podaj marke</string>
+    <string name="given_liters_error">podany litrarz musi być dodatni!</string>
+    <string name="set_color">podaj kolor</string>
+    <string name="set_cost">podaj koszt</string>
+    <string name="set_model">podaj koszt</string>
+    <string name="set_millage">podaj przebieg</string>
+    <string name="set_liters">podaj litrarz</string>
+    <string name="equals_millage_eror">przbieg musi być wiekszy lub równy ostatniemu</string>
+    <string name="car_remove_allert">Jesteś pewnien, że chcesz usunąć ten samochód i całą jego historię?</string>
+
+    <string name="make_demo">VolksWagen</string>
+    <string name="model_demo">golf</string>
+    <string name="color_demo">czarny</string>
+    <string name="new_tankup">nowe tankowanie</string>
+    <string name="new_tank">Nowe \n tankowanie</string>
+    <string name="new_repair">Nowa \n naprawa</string>
+    <string name="new_colision">Nowa \n kolizja</string>
+    <string name="repair">repair</string>
+    <string name="new_car">Nowe \n Auto</string>
+    <string name="switch_confirme">Moje główne auto</string>
+    <string name="data">data</string>
+    <string name="przebieg">przebieg</string>
+    <string name="litry">litry</string>
+    <string name="koszt">koszt</string>
+    <string name="remove_selected_car">usuń zaznaczone auto</string>
+    <string name="zatwierd">Zatwierdź</string>
+</resources>

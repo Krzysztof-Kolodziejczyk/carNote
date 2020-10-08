@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:padding="10dp">
+
+
+        <TextView
+            android:id="@+id/dateLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/data" />
+
+        <EditText
+            android:id="@+id/Date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number|textPersonName"
+            android:focusable="false"
+            android:longClickable="false"
+            tools:ignore="TextFields"/>
+
+        <TextView
+            android:id="@+id/millage_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/przebieg" />
+
+        <EditText
+            android:id="@+id/millage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/litersLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/litry" />
+
+        <EditText
+            android:id="@+id/liters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/costLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/koszt" />
+
+        <EditText
+            android:id="@+id/cost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/zatwierd"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/colorPrimaryDark"/>
+
+    </LinearLayout>
+</LinearLayout>

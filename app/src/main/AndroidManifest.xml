@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.carnote">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_mian"
+        android:label="My Car"
+        android:roundIcon="@mipmap/ic_launcher_krzychu"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".GasTankAppActivity" />
+        <activity android:name=".RepairAppActivity" />
+        <activity android:name=".NewCollisonActivity"/>
+        <activity android:name=".MenuActivity"/>
+
+        <activity android:name=".MainMenuActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".AddCarActivity"/>
+        <activity android:name=".GpsActivity" />
+
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+</manifest>
